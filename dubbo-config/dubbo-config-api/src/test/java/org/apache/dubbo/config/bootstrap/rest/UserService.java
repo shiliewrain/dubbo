@@ -38,6 +38,7 @@ import javax.ws.rs.core.MediaType;
 @Api(value = "UserService")
 public interface UserService {
 
+    //aaa
     @GET
     @Path("{id : \\d+}")
     @ApiOperation(value = "getUser")
